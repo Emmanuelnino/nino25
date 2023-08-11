@@ -4,7 +4,7 @@ const App = () => {
   return(
     <div>
       <div>Sidebar</div>
-      <div>
+      <div className="p-7 font-semibold ">
         <h1>Home Page</h1>
       </div>
     </div>
