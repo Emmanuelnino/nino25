@@ -5,6 +5,11 @@ const Navbar = () => {
         <nav className='py-3 bg-gray-100 px-4 md:px-10'>
             <div className='flex items-center justify-between max-w-7x1 mx-auto'>
 
+                <div className='flex items-center space-x-1'>
+                    <a href="" className='py-5 px-3 text-gray-700'>Features</a>
+                    <a href="" className='py-5 px-3 text-gray-700'>Pricing</a>
+                </div>
+
                 <div className='flex gap-2'>
                     <div className='mr-4'>
                         <a href="" className='flex items-center gap-1 py-5 px-2'>
@@ -17,14 +22,9 @@ const Navbar = () => {
                     </div>
 
                 </div>
-
-                <div className='flex items-center space-x-1'>
-                    <a href="" className='py-5 px-3 text-gray-700'>Features</a>
-                    <a href="" className='py-5 px-3 text-gray-700'>Pricing</a>
-                </div>
                 <div>
                     <div className='flex items-center gap-3'>
-                        <a href="">Login</a>
+                        <a href=""className='py-1 px-3 bg-yellow-500 text-yellow-900 hover:bg-yellow-300 rounded transition duration-300'>Login</a>
                         <a href="" className='py-1 px-3 bg-yellow-500 text-yellow-900 hover:bg-yellow-300 rounded transition duration-300'>Sign up</a>
                     </div>
                 </div>
