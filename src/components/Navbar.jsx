@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <nav className='py-3 bg-gray-100'>
+        <nav className='py-3 bg-gray-100 px-4 md:px-10'>
             <div className='flex items-center justify-between max-w-7x1 mx-auto'>
 
                 <div className='flex gap-2'>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex items-center space-x-1'>
                         <a href="">Login</a>
-                        <a href="" className='py-2 px-3 bg-yellow-900 rounded'>Sign up</a>
+                        <a href="" className='py-2 px-3 bg-yellow-500 rounded'>Sign up</a>
                     </div>
                 </div>
             </div>
