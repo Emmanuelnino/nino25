@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className=''>
+            <div className='hidden md:flex-row-reverse items-center gap-'>
                 <a href="">Features</a>
                 <a href="">Pricing</a>
             </div>
