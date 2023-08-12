@@ -4,7 +4,7 @@ const sidebar = () => {
     const [toggle,setToggle] = useState(false);
     return (
         <div className='{sidebar-container}'>
-            <div>
+            <div className='absolute-'>
                 <svg
                     viewBox="0 0 24 24"
                     height="2.5em"
