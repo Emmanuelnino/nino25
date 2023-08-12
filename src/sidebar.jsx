@@ -3,7 +3,7 @@ import React from 'react'
 const sidebar = () => {
     const [toggle,setToggle] = useState(false);
     return (
-        <div className='sidebar-container'>
+        <div className='{sidebar-container'>
             <div>
                 <svg
                     viewBox="0 0 24 24"
