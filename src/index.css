@@ -9,5 +9,5 @@
 
 }
 .sidebar-container{
-    @apply  bg-glass h-[96%] w-[20rem] rounded-3xl
+    @apply  bg-glass h-[96%] w-[20rem] rounded-3xl ml-6
 }
