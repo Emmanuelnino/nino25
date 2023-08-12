@@ -7,7 +7,6 @@ const sidebar = () => {
             <div>
                 <svg
                     viewBox="0 0 24 24"
-                    
                     height="2.5em"
                     width="2.5em"
                     
