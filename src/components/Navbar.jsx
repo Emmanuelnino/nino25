@@ -25,7 +25,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex items-center gap-3'>
                         <a href="">Login</a>
-                        <a href="" className='py-2 px-3 bg-yellow-500 rounded'>Sign up</a>
+                        <a href="" className='py-1 px-3 bg-yellow-500 text-yellow-900 hover:text-yellow-800 rounded'>Sign up</a>
                     </div>
                 </div>
             </div>
