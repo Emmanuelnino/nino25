@@ -6,6 +6,12 @@ const navbar = () => {
             <div className='max-w-7x1 mx-auto border border-red-400'>
 <div>logo</div>
 
+
+
+
+<div></div>
+
+
             </div>
         </nav>
     )
