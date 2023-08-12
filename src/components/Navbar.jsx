@@ -34,7 +34,10 @@ const Navbar = () => {
                 </div>
             </div>
 
-
+            <div>
+                <a href="">Features</a>
+                <a href=""></a>
+            </div>
 
         </nav >
     )
