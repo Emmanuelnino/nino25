@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className='py-3 bg-gray-100 px-4 md:px-10'>
             <div className='flex items-center justify-between max-w-7x1 mx-auto px-4'>
 
-                <div className='flex items-center space-x-1'>
+                <div className='hidden md:flex flex items-center space-x-1'>
                     <a href="" className='py-5 px-3 text-gray-700'>Features</a>
                     <a href="" className='py-5 px-3 text-gray-700'>Pricing</a>
                 </div>
@@ -23,9 +23,13 @@ const Navbar = () => {
 
                 </div>
                 <div>
-                    <div className='flex items-center gap-3'>
+                    <div></div>
+                    <div className='hidden md:flex flex items-center gap-3'>
                         <a href="">Login</a>
-                        <a href="" className='py-1 px-3 bg-blue-500 text-blue-900 hover:bg-blue-300 rounded transition duration-300'>Sign up</a>
+                        <a href="" className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600 rounded transition duration-300'>Sign up</a>
+                    </div>
+                    <div className='md:hidden flex items-center'>
+
                     </div>
                 </div>
             </div>
