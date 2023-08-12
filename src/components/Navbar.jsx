@@ -35,8 +35,8 @@ const Navbar = () => {
             </div>
 
             <div className='hidden items-center gap-'>
-                <a href="">Features</a>
-                <a href="">Pricing</a>
+                <a href=""className='block'>Features</a>
+                <a href=""className='block'>Pricing</a>
             </div>
 
         </nav >
