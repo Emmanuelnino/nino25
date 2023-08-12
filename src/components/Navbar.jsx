@@ -21,13 +21,14 @@ const Navbar = () => {
                     <a href="" className='py-5 px-3 text-gray-700'>Features</a>
                     <a href="" className='py-5 px-3 text-gray-700'>Pricing</a>
                 </div>
+                <div>
+                <div className='flex items-center space-x-1'>
+                    <a href="">Login</a>
+                    <a href="" className='py-2 px-3 bg-yellow-900 rounded'>Sign up</a>
+                </div>
             </div>
-
-            <div>
-                <a href="">Login</a>
-                <a href="">Sign up</a>
             </div>
-
+            
 
 
         </nav >
