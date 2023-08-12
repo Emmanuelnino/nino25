@@ -2,13 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0;
-    left: 0;
-    box-sizing: border-box;
 
-}
-.sidebar-container{
-    @apply  bg-gray-500 backdrop-blur-sm h-[96%] w-[20rem] rounded-3xl ml-6 p-4 border transition-all duration-500 
-    border-solid relative
+@layer base{
+
+    .sidebar-container{
+        @apply  bg-gray-500 backdrop-blur-sm h-[96%] w-[20rem] rounded-3xl ml-6 p-4 border transition-all duration-500 
+        border-solid relative
+    }
 }
