@@ -1,7 +1,7 @@
 import React from 'react'
 
 const sidebar = () => {
-    const [toggle,setToggle] = useState()
+    const [toggle,setToggle] = useState(false)
     return (
         <div>
             <div>
