@@ -13,7 +13,7 @@ const navbar = () => {
                 <div>primary nav</div>
 
 
-                <div>seconda</div>
+                <div>secondary</div>
 
 
             </div>
