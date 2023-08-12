@@ -3,11 +3,11 @@ import React from 'react'
 const sidebar = () => {
     const [toggle,setToggle] = useState(false);
     return (
-        <div>
+        <div className='sideba-container'>
             <div>
                 <svg
                     viewBox="0 0 24 24"
-                    fill="currentColor"
+                    fill="black"
                     height="2.5em"
                     width="2.5em"
                     
