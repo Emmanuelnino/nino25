@@ -6,7 +6,7 @@ const sidebar = () => {
         <div className='{sidebar-container}'>
             <div className='absolute top-[7rem] flex justify-center items-center -left-5 w-10 h-10 rounded-full
             cursor-pointer '>
-                <svg className=''
+                <svg className='text-3xl'
                     viewBox="0 0 24 24"
                     height="2.5em"
                     width="2.5em"
