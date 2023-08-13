@@ -34,7 +34,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className='md:flex-row hidden items-center gap-'>
+            <div className='md:flex-row items-center gap-'>
                 <a href=""className='block'>Features</a>
                 <a href=""className='block'>Pricing</a>
             </div>
