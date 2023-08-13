@@ -29,7 +29,16 @@ const Navbar = () => {
                         <a href="" className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600 rounded transition duration-300'>Sign up</a>
                     </div>
                     <div>
-                        
+                        <svg
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            height="2.5em"
+                            width="2.5em"
+                            {...props}
+                        >
+                            <path fill="none" d="M0 0h24v24H0z" />
+                            <path d="M18 15l-.001 3H21v2h-3.001L18 23h-2l-.001-3H13v-2h2.999L16 15h2zm-7 3v2H3v-2h8zm10-7v2H3v-2h18zm0-7v2H3V4h18z" />
+                        </svg>
                     </div>
                     <div className='md:hidden flex items-center'>
 
@@ -38,8 +47,8 @@ const Navbar = () => {
             </div>
 
             <div className='hidden md:flex-row flex-col items-center gap-'>
-                <a href=""className='block'>Features</a>
-                <a href=""className='block'>Pricing</a>
+                <a href="" className='block'>Features</a>
+                <a href="" className='block'>Pricing</a>
             </div>
 
         </nav >
