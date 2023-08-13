@@ -56,9 +56,9 @@ const Navbar = () => {
                                 <a href="">Login</a>
                                 <a href="" className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600 rounded transition duration-300'>Sign up</a>
                             </div>
-                            <div>
-                            <a href="" className='block'>Features</a>
-                            <a href="" className='block'>Pricing</a>
+                            <div className='py-1 px-3 bg-blue-300 text-white rounded flex flex-col bg-white p-2 gap-2 w-full'>
+                                <a href="" className='block'>Features</a>
+                                <a href="" className='block'>Pricing</a>
                             </div>
                         </div>
                     )}
