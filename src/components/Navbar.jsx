@@ -32,8 +32,8 @@ const Navbar = () => {
                         <svg
                             viewBox="0 0 24 24"
                             fill="currentColor"
-                            height="2.5em"
-                            width="2.5em"
+                            height="1.5em"
+                            width="1.5em"
                             
                         >
                             <path fill="none" d="M0 0h24v24H0z" />
