@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className='py-3 bg-gray-100 px-4 md:px-10'>
             <div className='flex items-center justify-between max-w-7x1 mx-auto px-4'>
 
-                <div className='hidden md:flex flex items-center space-x-1'>
+                <div className='font-medium hidden md:flex flex items-center space-x-1'>
                     <a href="" className='py-5 px-3 text-gray-700'>Features</a>
                     <a href="" className='py-5 px-3 text-gray-700'>Pricing</a>
                 </div>
