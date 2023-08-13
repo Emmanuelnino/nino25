@@ -7,7 +7,7 @@ const Navbar = () => {
 
                 <div className=' font-medium hidden md:flex items-center space-x-1'>
                     <a href="" className='py-5 px-3 text-gray-700'>Pluggins</a>
-                    <a href="" className='py-5 px-3 text-gray-700'>Pricing</a>
+                    <a href="" className='py-5 px-3 text-gray-700'>My Projects</a>
                 </div>
 
                 <div className='flex gap-2'>
