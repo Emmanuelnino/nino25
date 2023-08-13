@@ -28,7 +28,7 @@ const Navbar = () => {
                         <a href="">Login</a>
                         <a href="" className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600 rounded transition duration-300'>Sign up</a>
                     </div>
-                    <div className=' right-0 top-0 md:hidden '>
+                    <div className='stroke="currentColor" className="w-6 h-6 text-blue-400 right-0 top-0 md:hidden '>
                         <svg
                             viewBox="0 0 24 24"
                             fill="currentColor"
