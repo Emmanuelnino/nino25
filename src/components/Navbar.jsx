@@ -53,7 +53,7 @@ const Navbar = () => {
                     {isMenuOpen && (
                         <div className='md:hidden absolute top-[100%] h-screen shadow-xl right-0 w-2/3'>
                             <div className='flex flex-col bg-white p-2 gap-2 w-full'>
-                                <a href="">Login</a>
+                                <a href=""className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600'>Login</a>
                                 <a href="" className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600 rounded transition duration-300'>Sign up</a>
                             </div>
                             <div className='flex flex-col bg-white p-2 gap-2 w-full'>
