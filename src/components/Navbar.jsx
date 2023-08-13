@@ -24,9 +24,12 @@ const Navbar = () => {
                 </div>
                 <div>
                     <div></div>
-                    <div className=' md:flex-row items-center gap-3'>
+                    <div className=' md:flex-row flex items-center gap-3'>
                         <a href="">Login</a>
                         <a href="" className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600 rounded transition duration-300'>Sign up</a>
+                    </div>
+                    <div>
+                        
                     </div>
                     <div className='md:hidden flex items-center'>
 
