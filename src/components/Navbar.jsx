@@ -10,10 +10,21 @@ const Navbar = () => {
         <nav className='shadow-xl relative py-3 bg-gray-100 px-4 md:px-10'>
             <div className='flex items-center justify-between max-w-7x1 mx-auto px-4'>
 
-                <div className=' font-medium hidden md:flex items-center space-x-1'>
-                    <a href="" className='py-5 px-3 text-gray-700'>Plugins</a>
-                    <a href="" className='py-5 px-3 text-gray-700'>My Projects</a>
+                <div className='font-medium hidden md:flex items-center space-x-1'>
+                    <a
+                        href=''
+                        className='py-5 px-3 text-gray-700 transition duration-300 transform hover:-translate-y-1'
+                    >
+                        Plugins
+                    </a>
+                    <a
+                        href=''
+                        className='py-5 px-3 text-gray-700 transition duration-300 transform hover:-translate-y-1'
+                    >
+                        My Projects
+                    </a>
                 </div>
+
 
                 <div className='flex gap-2'>
                     <div className='mr-4'>
