@@ -17,7 +17,7 @@ const GetStartedPage = () => {
                     </a>
                     <div className=' flex flex-col gap-4'>
                         <a href=""className='py-2 px-4 bg-blue-500 text-white rounded-lg text-center hover:bg-blue-600 transition duration-300'>Youtube</a>
-                        <a href=""className='py-2 px-4 bg-blue-500 text-white rounded-lg text-center hover:bg-blue-600 transition duration-300'>Gmail</a>
+                        <a href=""className='py-2 px-4 bg-blue-500 text-white rounded-lg text-center hover:bg-blue-600 transition duration-300'>LinkedIn</a>
                     </div>
                     {/* Add more links/buttons as needed */}
                 </div>
