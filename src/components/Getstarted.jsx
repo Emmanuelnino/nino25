@@ -4,7 +4,7 @@ const GetStartedPage = () => {
     return (
         <div className='bg-gray-100 min-h-screen flex justify-center items-center'>
             <div className='max-w-md mx-auto p-8 bg-white shadow-xl rounded-xl'>
-                <h2 className='text-2xl font-semibold mb-4'>Get Started</h2>
+                <h2 className='text-2xl font-semibold mb-4'>Resources</h2>
                 <p className='text-gray-600 mb-6'>
                     Choose a platform to get started with.
                 </p>
