@@ -13,13 +13,13 @@ const Navbar = () => {
                 <div className='font-medium hidden md:flex items-center space-x-1'>
                     <a
                         href=''
-                        className='py-5 px-3 text-gray-700 transition duration-300 transform hover:-translate-y-1'
+                        className='font-bold py-5 px-3 text-gray-700 transition duration-300 transform hover:-translate-y-1'
                     >
                         Plugins
                     </a>
                     <a
                         href=''
-                        className='py-5 px-3 text-gray-700 transition duration-300 transform hover:-translate-y-1'
+                        className='font-bold py-5 px-3 text-gray-700 transition duration-300 transform hover:-translate-y-1'
                     >
                         My Projects
                     </a>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
                 <div>
                     <div className='md:flex hidden items-center gap-3'>
-                        <a href="" className='transition duration-300 transform hover:-translate-y-1 bg-yellow-gold-500'>Login</a>
+                        <a href="" className='transition duration-300 transform hover:-translate-y-1 bg-yellow-gold-500 font-bold'>Login</a>
                         <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white hover:bg-opacity-80 rounded transition duration-300 transform hover:translate-y-1'>Sign up</a>
                     </div>
                     <div className='stroke="currentColor" className="w-6 h-6 text-bg-[#fcaa4e] right-0 top-0 md:hidden '>
@@ -60,7 +60,7 @@ const Navbar = () => {
                     {isMenuOpen && (
                         <div className='md:hidden absolute top-[100%] h-screen shadow-xl right-0 w-2/3'>
                             <div className='flex flex-col bg-white p-2 gap-2 w-full'>
-                                <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>Login</a>
+                                <a href="" className='py-1 px-3 font-bold  text-white rounded'>Login</a>
                                 <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>Sign up</a>
                             </div>
                             <div className='transition duration-300 flex flex-col bg-white p-2 gap-2 w-full'>
