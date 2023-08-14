@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
-
-const Navbar = () => {
-  
-};
-
 const HeroSection = () => {
   return (
-    <section className='min-h-screen justify-center items-center w-full flex bg-[#fcaa4e] text-white py-32'>
-      <div className='container mx-auto text-center'>
+    <section style={{backgroundImage:`url(https://images.pexels.com/photos/935985/pexels-photo-935985.jpeg?auto=compress&cs=tinysrgb&w=600)`}} className='min-h-screen justify-center items-center h-full w-full bg-cover bg-center bg-no-repeat flex text-white'>
+      <div className='bg-[#fcaa4e] bg-opacity-80 px-4 md:px-8 flex-1 w-full min-h-screen flex flex-col h-full items-center justify-center text-center'>
         <h1 className='text-4xl md:text-6xl font-bold mb-4'>
           Welcome to Your Favorite Website
         </h1>
@@ -22,14 +16,4 @@ const HeroSection = () => {
   );
 };
 
-const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <HeroSection />
-      {/* ... other sections ... */}
-    </div>
-  );
-};
-
-export default App;
+export default HeroSection;

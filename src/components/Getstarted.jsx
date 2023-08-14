@@ -11,13 +11,13 @@ const GetStartedPage = () => {
                 <div className='flex flex-col gap-4'>
                     <a
                         href='https://github.com/Emmanuelnino'
-                        className='py-2 px-4 bg-[#fcaa4e] text-white rounded-lg text-center bg-hover:opacity-50 transform transition duration-300'
+                        className='py-2 px-4 bg-[#fcaa4e] text-white font-bold rounded-lg text-center bg-hover:opacity-50 transform transition duration-300'
                     >
                         GitHub
                     </a>
                     <div className=' flex flex-col gap-4'>
-                        <a href=""className='py-2 px-4 bg-[#fcaa4e] text-white rounded-lg text-center bg-hover:opacity-90 transition transform duration-300'>Youtube</a>
-                        <a href=""className='py-2 px-4 bg-[#fcaa4e] text-white rounded-lg text-center bg-hover:opacity-90 transition transform duration-300'>LinkedIn</a>
+                        <a href=""className='py-2 px-4 bg-[#fcaa4e] text-white font-bold rounded-lg text-center bg-hover:opacity-90 transition transform duration-300'>Youtube</a>
+                        <a href=""className='py-2 px-4 bg-[#fcaa4e] text-white font-bold rounded-lg text-center bg-hover:opacity-90 transition transform duration-300'>LinkedIn</a>
                     </div>
                     {/* Add more links/buttons as needed */}
                 </div>
