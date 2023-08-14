@@ -11,7 +11,7 @@ const GetStartedPage = () => {
                 <div className='flex flex-col gap-4'>
                     <a
                         href='https://github.com/Emmanuelnino'
-                        className='py-2 px-4 bg-blue-500 text-white rounded-lg text-center hover:bg-blue-600 transition duration-300'
+                        className='py-2 px-4 bg-[#fcaa4e] text-white rounded-lg text-center bg-hover:opacity-80 transition duration-300'
                     >
                         GitHub
                     </a>

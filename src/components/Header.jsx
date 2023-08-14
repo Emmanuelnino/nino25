@@ -14,7 +14,7 @@ const HeroSection = () => {
         <p className='text-lg md:text-xl mb-8'>
           Discover amazing features and explore our Projects.
         </p>
-        <a href="#" className='bg-white text-[#fcaa4e] py-2 px-6 rounded-full font-semibold text-lg hover:bg-[#fcaa4e] transition duration-300'>
+        <a href="#" className='bg-white text-[#fcaa4e]  py-2 px-6 rounded-full font-semibold text-lg bg-hover:opacity-90 transition duration-300'>
           Collaborate?
         </a>
       </div>
