@@ -43,7 +43,7 @@ const Navbar = () => {
                         <a href="" className='transition duration-300 transform hover:-translate-y-1 bg-yellow-gold-500'>Login</a>
                         <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white hover:bg-opacity-80 rounded transition duration-300 transform hover:translate-y-1'>Sign up</a>
                     </div>
-                    <div className='stroke="currentColor" className="w-6 h-6 text-blue-400 right-0 top-0 md:hidden '>
+                    <div className='stroke="currentColor" className="w-6 h-6 text-bg-[#fcaa4e] right-0 top-0 md:hidden '>
                         <button onClick={toggleMenu} className='md:hidden'>
                             <svg
                                 viewBox="0 0 24 24"
@@ -60,14 +60,14 @@ const Navbar = () => {
                     {isMenuOpen && (
                         <div className='md:hidden absolute top-[100%] h-screen shadow-xl right-0 w-2/3'>
                             <div className='flex flex-col bg-white p-2 gap-2 w-full'>
-                                <a href="" className='py-1 px-3 bg-blue-300 text-white rounded'>Login</a>
-                                <a href="" className='py-1 px-3 bg-blue-300 text-white rounded'>Sign up</a>
+                                <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>Login</a>
+                                <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>Sign up</a>
                             </div>
                             <div className='transition duration-300 flex flex-col bg-white p-2 gap-2 w-full'>
-                                <a href="" className='py-1 px-3 bg-blue-300 text-white rounded'>Features</a>
-                                <a href="" className='py-1 px-3 bg-blue-300 text-white rounded'>Pricing</a>
-                                <a href="" className='py-1 px-3 bg-blue-300 text-white rounded'>Plugins</a>
-                                <a href="" className='py-1 px-3 bg-blue-300 text-white rounded'>My Projects</a>
+                                <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>Features</a>
+                                <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>Pricing</a>
+                                <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>Plugins</a>
+                                <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white rounded'>My Projects</a>
                             </div>
                         </div>
                     )}
