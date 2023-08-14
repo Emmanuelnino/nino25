@@ -41,7 +41,7 @@ const Navbar = () => {
                 <div>
                     <div className='md:flex hidden items-center gap-3'>
                         <a href="" className='transition duration-300 transform hover:-translate-y-1 bg-yellow-gold-500'>Login</a>
-                        <a href="" className='py-1 px-3 bg-blue-300 text-white hover:bg-blue-600 rounded transition duration-300 transform hover:translate-y-1'>Sign up</a>
+                        <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white hover:bg-opacity-80 rounded transition duration-300 transform hover:translate-y-1'>Sign up</a>
                     </div>
                     <div className='stroke="currentColor" className="w-6 h-6 text-blue-400 right-0 top-0 md:hidden '>
                         <button onClick={toggleMenu} className='md:hidden'>
