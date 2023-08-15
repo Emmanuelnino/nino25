@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetStartedPage = () => {
     return (
-        <section style={{backgroundImage:`https://images.pexels.com/photos/1510659/pexels-photo-1510659.jpeg?auto=compress&cs=tinysrgb&w=600`}} >
+        <section style={{backgroundImage:`https://images.pexels.com/photos/1510659/pexels-photo-1510659.jpeg?auto=compress&cs=tinysrgb&w=600`}} className='min-h-screen justify-center items-center h-full w-full bg-cover bg-center bg-no-repeat flex text-white'>
             <div className='bg-gray-100 min-h-screen flex justify-center items-center'>
                 <div className='max-w-md mx-auto p-8 bg-white shadow-xl rounded-xl'>
                     <h2 className='text-2xl font-semibold mb-4'>Get Started</h2>
