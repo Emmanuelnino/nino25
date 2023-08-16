@@ -60,7 +60,7 @@ const Navbar = () => {
                     {isMenuOpen && (
                         <div className='md:hidden absolute bg-white top-[100%] h-screen shadow-xl right-0 w-2/3'>
                             <div className='flex flex-col  p-2 gap-3 w-full'>
-                                <a href="" className='py-1 px-3 font-semibold border-opacity-50 text-gray-600 border-b-[#fcaa4e] border-b'>Login</a>
+                                <a href="http://127.0.0.1:5175/" className='py-1 px-3 font-semibold border-opacity-50 text-gray-600 border-b-[#fcaa4e] border-b'>Login</a>
                                 <a href="" className='py-1 px-3 border-b-[#fcaa4e] border-opacity-50 border-b text-gray-600 font-semibold'>Sign up</a>
                             </div>
                             <div className='transition duration-300 flex flex-col bg-white p-2 gap-2 w-full'>
