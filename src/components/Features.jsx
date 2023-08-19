@@ -6,10 +6,10 @@ const Features = () => {
       <div className="flex-1 text-center">
         <h2 className="font-bold text-4xl mb-4">
 
-            Here
+          Here
 
 
-            we go!
+          we go!
 
         </h2>
         <div className="mb-10">
@@ -29,20 +29,14 @@ const Features = () => {
           </svg>
         </div>
         <h2 className="text-[#fcaa4e] text-3xl font-bold mb-2">Interactive Showcase</h2>
-        <p className="text-lg">
+        <p className="transition-all text-lg">
           Explore some of the
-           awesome things created!
+          awesome things created!
         </p>
-        <p className="text-lg animate-bounce">
-  Creativity <span className="group inline-block animate-bounce text-[#fcaa4e] group-hover:animate-none">unleashed</span>! 🚀
-</p>
-{/* Other paragraphs */}
-<p className="text-lg animate-bounce">
-  About Us: We are a passionate community of creators and innovators, dedicated to nurturing the sparks of imagination and turning them into impactful realities. Our mission is to provide a platform for individuals to explore, experiment, and collaborate, fostering a culture where creativity knows no bounds.
-</p>
-<p className="text-lg animate-bounce">
-  Join our vibrant community and be a part of the journey to unlock the hidden potential within you. Together, we can shape a future that's vibrant with innovation and brimming with limitless possibilities.
-</p>
+        <p className="text-6xl text-gray-800 animate-bounce group">
+          Creativity <span className="inline-block text-[#fcaa4e] group-hover:animate-none">unleashed</span>! 🚀
+        </p>
+        
 
 
       </div>
