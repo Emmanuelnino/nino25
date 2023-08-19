@@ -41,7 +41,7 @@ const Navbar = () => {
                 <div>
                     <div className='md:flex hidden items-center gap-3'>
                         <a href="http://127.0.0.1:5175/" className='transition duration-300 transform hover:-translate-y-1 bg-yellow-gold-500 text-gray-600 font-bold'>Login</a>
-                        <a href="" className='py-1 px-3 bg-[#fcaa4e] text-white hover:bg-opacity-80 rounded transition duration-300 transform hover:translate-y-1 font-bold'>Sign up</a>
+                        <a href="http://127.0.0.1:5175/" className='py-1 px-3 bg-[#fcaa4e] text-white hover:bg-opacity-80 rounded transition duration-300 transform hover:translate-y-1 font-bold'>Sign up</a>
                     </div>
                     <div className='stroke="currentColor" className="w-6 h-6 text-bg-[#fcaa4e] right-0 top-0 md:hidden '>
                         <button onClick={toggleMenu} className='md:hidden'>
@@ -61,7 +61,7 @@ const Navbar = () => {
                         <div className='md:hidden absolute bg-white top-[100%] h-screen shadow-xl right-0 w-2/3'>
                             <div className='flex flex-col  p-2 gap-3 w-full'>
                                 <a href="http://127.0.0.1:5175/" className='py-1 px-3 font-semibold border-opacity-50 text-gray-600 border-b-[#fcaa4e] border-b'>Login</a>
-                                <a href="" className='py-1 px-3 border-b-[#fcaa4e] border-opacity-50 border-b text-gray-600 font-semibold'>Sign up</a>
+                                <a href="http://127.0.0.1:5175/" className='py-1 px-3 border-b-[#fcaa4e] border-opacity-50 border-b text-gray-600 font-semibold'>Sign up</a>
                             </div>
                             <div className='transition duration-300 flex flex-col bg-white p-2 gap-2 w-full'>
                                 <a href="" className='py-1 px-3 border-b-[#fcaa4e] border-b border-opacity-50 text-gray-600 font-semibold'>Features</a>
