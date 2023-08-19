@@ -40,7 +40,7 @@ const Features = () => {
         <div className='mt-10 gap-6 items-center justify-center flex w-full'>
 
 {/* Instagram */}
-<a href="https://distrokid.com/hyperflow/stonewreckodds1/9am" className='group flex gap-1 flex-col'>
+<a href="" className='group flex gap-1 flex-col'>
 <svg
       viewBox="0 0 1024 1024"
       fill="currentColor"
@@ -82,7 +82,7 @@ const Features = () => {
 </a>
 
 {/* Facebook */}
-<a href="https://music.apple.com/ch/artist/stonewreckodds/165524673" className='group flex gap-1 flex-col'>
+<a href="" className='group flex gap-1 flex-col'>
 <svg
       fill="currentColor"
       viewBox="0 0 16 16"
