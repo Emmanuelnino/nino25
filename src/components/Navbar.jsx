@@ -7,7 +7,7 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
     return (
-        <nav className='fixed top-0 shadow-xl w-full py-3 bg-gray-100 px-4 md:px-8'>
+        <nav className='fixed top-0 shadow-xl w-full py-3 bg-gray-100 px-4 z-50 md:px-8'>
             <div className='flex items-center justify-between max-w-7x1 mx-auto'>
 
                 <div className='font-medium hidden md:flex items-center space-x-1'>

@@ -33,9 +33,17 @@ const Features = () => {
           Explore some of the
            awesome things created!
         </p>
-        <p className="text-lg">
-          Creativity <span className="text-[#fcaa4e]">unleashed</span>! 🚀
-        </p>
+        <p className="text-lg animate-bounce">
+  Creativity <span className="group inline-block animate-bounce text-[#fcaa4e] group-hover:animate-none">unleashed</span>! 🚀
+</p>
+{/* Other paragraphs */}
+<p className="text-lg animate-bounce">
+  About Us: We are a passionate community of creators and innovators, dedicated to nurturing the sparks of imagination and turning them into impactful realities. Our mission is to provide a platform for individuals to explore, experiment, and collaborate, fostering a culture where creativity knows no bounds.
+</p>
+<p className="text-lg animate-bounce">
+  Join our vibrant community and be a part of the journey to unlock the hidden potential within you. Together, we can shape a future that's vibrant with innovation and brimming with limitless possibilities.
+</p>
+
 
       </div>
     </div>
