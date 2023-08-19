@@ -37,7 +37,7 @@ const Features = () => {
           Creativity <span className="inline-block text-[#fcaa4e] group-hover:animate-none">unleashed</span>! 🚀
         </p>
 
-        <div className='mt-10 gap-6 items-center justify-center flex w-full'>
+        <div className='mt-5 gap-6 items-center justify-center flex w-full'>
 
 
 
@@ -57,15 +57,15 @@ const Features = () => {
 
           {/* Twitter */}
           <a href="" className='group flex gap-1 flex-col'>
-            <svg
-              viewBox="0 0 448 512"
-              fill="currentColor"
-              height="2.5em"
-              width="2.5em"
-              className='justify-center transition transform delay-300 group-hover:scale-105 w-full flex group-hover:text-blue-700 text-zinc-700'
-            >
-              <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 01-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
-            </svg>
+          <svg
+      fill="currentColor"
+      viewBox="0 0 16 16"
+      height="2.5em"
+      width="2.5em"
+      className='justify-center transition transform delay-300 group-hover:scale-105 w-full flex group-hover:text-blue-700 text-zinc-700'
+    >
+      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0016 3.542a6.658 6.658 0 01-1.889.518 3.301 3.301 0 001.447-1.817 6.533 6.533 0 01-2.087.793A3.286 3.286 0 007.875 6.03a9.325 9.325 0 01-6.767-3.429 3.289 3.289 0 001.018 4.382A3.323 3.323 0 01.64 6.575v.045a3.288 3.288 0 002.632 3.218 3.203 3.203 0 01-.865.115 3.23 3.23 0 01-.614-.057 3.283 3.283 0 003.067 2.277A6.588 6.588 0 01.78 13.58a6.32 6.32 0 01-.78-.045A9.344 9.344 0 005.026 15z" />
+    </svg>
             <p className='md:text-sm text-xs transition transform delay-300 duration-300 group-hover:opacity-0 text-zinc-500'>Twitter</p>
           </a>
 
