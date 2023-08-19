@@ -33,7 +33,7 @@ const Features = () => {
           Explore some of the
           awesome things created!
         </p>
-        <p className="py-8 md:py-11 text-6xl text-gray-800 animate-bounce group">
+        <p className="py-8 md:py-11 z-50 text-6xl text-gray-800 animate-bounce group">
           Creativity <span className="inline-block text-[#fcaa4e] group-hover:animate-none">unleashed</span>! 🚀
         </p>
         
